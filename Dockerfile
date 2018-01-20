@@ -1,4 +1,4 @@
-FROM node:8-alpine
+FROM node:7
 RUN mkdir /express_pg
 ADD . /express_pg
 WORKDIR /express_pg
